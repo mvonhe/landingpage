@@ -15,7 +15,7 @@ def display_template():
 	#if "userinput" in request.args:
 	#	return request.args["userinput"].upper()
 	#else: 			
-	return render_template('index3.html')
+	return render_template('form.html')
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=port, debug=True)
